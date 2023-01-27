@@ -7,10 +7,14 @@ public class PrimeNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         int num = scanner.nextInt();
-        int x=4;
-        for(int i=2;i<x;i++){
-            System.out.println("The given num is prime");
+        for (int i = 0; i <= num; i++) ;
+        if (num % 10 == 0) {
+            System.out.println("The given number is Prime Number");
+        } else {
+            System.out.println("The given number is not Prime Number");
+
         }
     }
-    }
 }
+
+
